@@ -1,0 +1,87 @@
+:global(.ant-layout.ant-layout-has-sider){
+  height: 100%;
+  overflow: hidden;
+}
+
+:global(.trigger) {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 16px;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+:global(.trigger):hover {
+  color: #108ee9;
+}
+
+:global(.logo) {
+  height: 64px;
+  background: #4da7e6;
+  padding: 16px 0 0 22px;
+  white-space:nowrap;
+  overflow: hidden;
+}
+
+:global(.ant-layout-sider){
+  height: 100%;
+  overflow: hidden;
+}
+
+.logoText{
+  margin-left: 25px;
+}
+
+:global(.fr){
+  float: right
+}
+
+.logoTextBlue{
+  width: 200px;
+  display: inline-block
+}
+
+.header{
+  background:white;
+  padding:0 20px;
+}
+
+:global(.hide){
+  visibility: hidden;
+}
+
+.skin{
+  color:#4da7e6;
+  margin-right: 10px;
+}
+
+.tx{
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-right: 12px;
+}
+
+.headerLi{
+  display: inline-block;
+  padding:0 12px;
+  position: relative;
+  font-size: 14px;
+}
+
+.headerLi:after{
+  position: absolute;
+  content:'';
+  top:30%;
+  right: 0;
+  height: 40%;
+  width: 1px;
+  border-right: 1px solid #f3f4f8;
+}
+
+:global(.bd-none):after{
+  border:none;
+}

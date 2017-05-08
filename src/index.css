@@ -1,0 +1,12 @@
+
+html, body, :global(#root) {
+  height: 100%;
+}
+.c-pink{
+  color:pink;
+}
+.mr{
+  margin-right: 10px;
+  margin:20px;
+  display: inline-block;
+}

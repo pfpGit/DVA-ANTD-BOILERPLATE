@@ -1,0 +1,48 @@
+:global(.ant-layout-sider-collapsed) :global(.anticon) {
+  font-size: 16px;
+}
+
+:global(.ant-layout-sider-collapsed) :global(.nav-text) {
+  display: none;
+}
+
+:global(.ant-layout-sider-collapsed) :global(.ant-menu-submenu-title):after{
+  display: none;
+}
+
+:global(.ant-layout-sider-collapsed) :global(.ant-menu-sub){
+  display: none;
+}
+
+:global(.ant-menu-dark.ant-menu-inline) :global(.ant-menu-item-selected){
+  background:rgba(0,0,0,0);
+  color:#4da7e6;
+  position: relative;
+}
+
+:global(.ant-menu-dark.ant-menu-inline) :global(.ant-menu-item-selected):after{
+  position: absolute;
+  width: 1px;
+  height: 40%;
+  content:'';
+  border-left: 1px solid #4da7e6;
+  left: 0;
+  top:30%;
+}
+
+:global(.menu-wrap){
+  height: calc(100% - 64px)
+}
+
+:global(.ant-menu-item) a{
+    color:rgba(255, 255, 255, 0.67);
+    text-decoration: none;
+}
+
+:global(.ant-menu-item):hover,:global(.ant-menu-item):hover a{
+  color:#4da7e6!important;
+}
+
+:global(.ant-menu-submenu-selected),:global(.ant-menu-item-selected) a{
+  color:#4da7e6!important;
+}

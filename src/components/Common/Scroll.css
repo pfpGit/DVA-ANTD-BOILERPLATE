@@ -1,0 +1,66 @@
+:global(.ll-scroll){
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    box-sizing: border-box;
+}
+:global(.ll-scroll-wrap){
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+:global(.ll-scroll-container){
+    position: absolute;
+    top: 0;
+    right: -15px;
+    bottom: -15px;
+    left: 0;
+    overflow: scroll;
+}
+
+:global(.ll-scrollbar-track-vertical){
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 8px;
+    background: rgba(0, 0, 0, 0);
+}
+
+:global(.ll-scrollbar-track-horizontal){
+    position: absolute;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    height: 8px;
+    background: rgba(0, 0, 0, 0);
+}
+
+:global(.ll-scrollbar-thumb-vertical){
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background: rgba(0,0,0,.3);
+    visibility: hidden;
+}
+
+:global(.ll-scrollbar-thumb-horizontal){
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100px;
+    background:rgba(0, 0, 0, .3);
+    visibility: hidden;
+}
+
+:global(.ll-scroll):hover :global(.ll-scrollbar-thumb-vertical){
+    visibility: visible;
+}
+
+:global(.ll-scroll):hover :global(.ll-scrollbar-thumb-horizontal){
+    visibility: visible;
+}
