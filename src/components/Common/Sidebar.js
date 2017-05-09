@@ -34,6 +34,28 @@ function Sidebar() {
           to:'/area-chart'
         }
       ]
+    },
+    {
+      text:'系统管理',
+      icon:'windows-o',
+      to:'javascript:void(0)',
+      sub:[
+        {
+          text:'菜单管理',
+          icon:'file',
+          to:'/menu'
+        },
+        {
+          text:'组织机构',
+          icon:'file',
+          to:'/org'
+        },
+        {
+          text:'角色管理',
+          icon:'file',
+          to:'/role'
+        }
+      ]
     }
   ]
   return (

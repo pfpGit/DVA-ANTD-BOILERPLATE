@@ -1,11 +1,11 @@
 import React from 'react';
 import { connect } from 'dva';
-import styles from './Index.css';
+import styles from './Role.css';
 
-function Home() {
+function Role() {
   return (
     <div className={styles.normal}>
-      主页
+      Route Component: Role
     </div>
   );
 }
@@ -14,4 +14,4 @@ function mapStateToProps() {
   return {};
 }
 
-export default connect(mapStateToProps)(Home);
+export default connect(mapStateToProps)(Role);

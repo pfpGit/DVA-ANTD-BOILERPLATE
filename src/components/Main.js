@@ -64,7 +64,7 @@ class Main extends React.Component {
           </Header>
 
           <Scroll>
-            <Content style={{ margin: '24px 8px 24px 16px', padding: 24, background: '#fff', minHeight: 280 }}>
+            <Content style={{ margin: '24px 8px 24px 16px', padding: 0 }}>
                 { this.props.children }
             </Content>
           </Scroll>

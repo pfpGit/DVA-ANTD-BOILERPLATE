@@ -1,11 +1,11 @@
 import React from 'react';
 import { connect } from 'dva';
-import styles from './Index.css';
+import styles from './Org.css';
 
-function Home() {
+function Org() {
   return (
     <div className={styles.normal}>
-      主页
+      Route Component: Org
     </div>
   );
 }
@@ -14,4 +14,4 @@ function mapStateToProps() {
   return {};
 }
 
-export default connect(mapStateToProps)(Home);
+export default connect(mapStateToProps)(Org);
